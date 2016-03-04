@@ -1,0 +1,4 @@
+-cpu=rx600
+-output="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\UART_2.lib"
+-lang=c99
+-head=runtime,stdio,stdlib

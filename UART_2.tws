@@ -1,0 +1,21 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"UART_2" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"D:\Adv_embedded\Lab\Lab3_zigbee\interrupts.c" 
+"D:\Adv_embedded\Lab\Lab3_zigbee\stick1.c" 
+"D:\Adv_embedded\Lab\Lab3_zigbee\tty.c" 
+"D:\Adv_embedded\Lab\XBEE_lab\UART_2\src\main.c" 
+[WORKSPACE_FILE_STATES]
+"D:\Adv_embedded\Lab\Lab3_zigbee\interrupts.c" 26 26 973 260 0 1 
+"D:\Adv_embedded\Lab\Lab3_zigbee\stick1.c" 52 52 973 260 0 2 
+"D:\Adv_embedded\Lab\Lab3_zigbee\tty.c" 78 78 973 260 0 3 
+"D:\Adv_embedded\Lab\XBEE_lab\UART_2\src\main.c" -8 -31 1093 422 1 4 
+[LOADED_PROJECTS]
+"UART_2" 
+[END]

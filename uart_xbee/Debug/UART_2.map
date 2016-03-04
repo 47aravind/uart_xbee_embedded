@@ -1,0 +1,91 @@
+Optimizing Linkage Editor (V.10.02.00.000)        26-Feb-2016 14:50:07
+
+*** Options ***
+
+-subcommand=D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\UART_2.hlk
+-noprelink
+-rom=D=R,D_1=R_1,D_2=R_2
+-nomessage
+-vect=_undefined_interrupt_source_isr
+-list="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\UART_2.map"
+-nooptimize
+-start=SI,SU,B_1,R_1,B_2,R_2,B,R/00,C_1,C_2,C,C$*,L*,D*,P,W*/0FFF80000,FIXEDVECT/0FFFFFF90
+-nologo
+-input="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\customUART.obj"
+-input="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\dbsct.obj"
+-input="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\flash_options.obj"
+-input="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\font_8x8.obj"
+-input="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\glyph.obj"
+-input="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\hwsetup.obj"
+-input="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\lcd.obj"
+-input="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\lowlvl.obj"
+-input="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\lowsrc.obj"
+-input="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\main.obj"
+-input="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\r_glyph.obj"
+-input="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\r_glyph_register.obj"
+-input="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\r_rspi_rx600.obj"
+-input="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\r_switches.obj"
+-input="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\resetprg.obj"
+-input="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\sbrk.obj"
+-input="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\st7579_lcd.obj"
+-input="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\vecttbl.obj"
+-library="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\UART_2.lib"
+-output="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\UART_2.abs"
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+SI
+                                  00000000  000003ff       400   4
+SU
+                                  00000400  000013ff      1000   4
+B_1
+                                  00001400  0000147f        80   1
+R_1
+                                  00001480  000014e7        68   1
+B_2
+                                  000014e8  000014e8         0   2
+R_2
+                                  000014e8  000014e8         0   2
+B
+                                  000014e8  000019a3       4bc   4
+R
+                                  000019a4  00002027       684   4
+$ADDR_C_FF7FFFE8
+                                  ff7fffe8  ff7fffff        18   1
+C_1
+                                  fff80000  fff80ad1       ad2   1
+C_2
+                                  fff80ad2  fff80cd3       202   2
+C
+                                  fff80cd4  fff80d8b        b8   4
+C$DSEC
+                                  fff80d8c  fff80daf        24   4
+C$BSEC
+                                  fff80db0  fff80dc7        18   4
+C$VECT
+                                  fff80dc8  fff811c7       400   4
+L
+                                  fff811c8  fff812e8       121   4
+D_1
+                                  fff812e9  fff81350        68   1
+D
+                                  fff81354  fff819d7       684   4
+D_2
+                                  fff819d8  fff819d8         0   2
+P
+                                  fff819d8  fff85679      3ca2   1
+W_1
+                                  fff8567a  fff8567a         0   1
+W_2
+                                  fff8567a  fff8574b        d2   2
+W
+                                  fff8574c  fff8574c         0   4
+$ADDR_C_FFFFFF80
+                                  ffffff80  ffffff8f        10   1
+FIXEDVECT
+                                  ffffff90  ffffffff        70   4

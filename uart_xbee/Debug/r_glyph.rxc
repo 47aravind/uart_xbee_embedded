@@ -1,0 +1,16 @@
+-cpu=rx600
+-lang=c99
+-include="D:\Adv_embedded\Lab\XBEE_lab\UART_2\r_bsp"
+-include="D:\Adv_embedded\Lab\XBEE_lab\UART_2\r_glyph"
+-include="D:\Adv_embedded\Lab\XBEE_lab\UART_2\r_glyph\src"
+-include="D:\Adv_embedded\Lab\XBEE_lab\UART_2\r_glyph\src\glyph"
+-include="D:\Adv_embedded\Lab\XBEE_lab\UART_2\r_rspi_rx600"
+-include="D:\Adv_embedded\Lab\XBEE_lab\UART_2\r_rspi_rx600\src"
+-include="D:\Adv_embedded\Lab\XBEE_lab\UART_2\r_switches"
+-include="D:\Adv_embedded\Lab\XBEE_lab\UART_2\r_switches\src"
+-include="D:\Adv_embedded\Lab\XBEE_lab\UART_2\src"
+-output=obj="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\r_glyph.obj"
+-debug
+-speed
+"D:\Adv_embedded\Lab\XBEE_lab\UART_2\r_glyph\src\r_glyph.c"
+-nologo

@@ -1,0 +1,5 @@
+"D:\Adv_embedded\Lab\XBEE_lab\UART_2\r_bsp\board\rdkrx63n\lowlvl.src"
+-cpu=rx600
+-debug
+-output="D:\Adv_embedded\Lab\XBEE_lab\UART_2\Debug\lowlvl.obj"
+-nologo
